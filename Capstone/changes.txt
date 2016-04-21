@@ -1,0 +1,39 @@
+Training(Show table)
+- Title - Training Code ***
+- Description - Title	***
+- training status - (done or on going)	***
+
+Training add 
+- number of hours ***
+
+Database  - 
+Training - number of hours ***
+
+
+attendance
+- print table
+- status - makapili ug (approve or disapproved) ***
+- training information in Left side ***
+- training information - change title to attendance ***
+- see changes.png ***
+- functionality remove,attendance, *** print certificate
+
+
+profile table ***
+trainings attended - title***
+inclusive - specif dates***
+number of hours***
+trainor
+print information
+- bug browse
+
+
+dashboard
+- By Training Code box
+- display table in view details
+- display participants not trained
+- toolkit (participants not trained)
+- add latest 
+
+
+search for all table

@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>MICeL TRIS</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/sb-admin.css" rel="stylesheet">
+
+    <!-- Morris Charts CSS -->
+    <link href="css/plugins/morris.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">MICeL TRIS</a>
+            </div>
+            <!-- Top Menu Items -->
+            <ul class="nav navbar-right top-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> <b class="caret"></b></a>
+                    <ul class="dropdown-menu message-dropdown">
+                        <li class="message-preview">
+                            <a href="#">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="http://placehold.it/50x50" alt="">
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>John Smith</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="message-preview">
+                            <a href="#">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="http://placehold.it/50x50" alt="">
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>John Smith</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="message-preview">
+                            <a href="#">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="http://placehold.it/50x50" alt="">
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>John Smith</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="message-footer">
+                            <a href="#">Read All New Messages</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> <b class="caret"></b></a>
+                    <ul class="dropdown-menu alert-dropdown">
+                        <li>
+                            <a href="#">Alert Name <span class="label label-default">Alert Badge</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name <span class="label label-primary">Alert Badge</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name <span class="label label-success">Alert Badge</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name <span class="label label-info">Alert Badge</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name <span class="label label-warning">Alert Badge</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name <span class="label label-danger">Alert Badge</span></a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">View All</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> John Smith <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-envelope"></i> Inbox</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-gear"></i> Settings</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav side-nav">
+                    <li>
+                        <a href="index.html"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-fw fa-table"></i> Trainings</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-fw fa-bar-chart-o"></i> Profiles</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#"><i class="fa fa-fw fa-edit"></i> Forms</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-fw fa-desktop"></i> Users</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+  
+       
+
+
+        <div id="page-wrapper">
+
+            <div class="container-fluid">
+                <div class="row">
+                 <div class="col-lg-8">
+                        <h2>Trainings</h2>
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-hover table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Title</th>
+                                        <th>Venue</th>
+                                        <th>SO Ref. No.</th>
+                                        <th>Participants</th>
+                                        <th>Status</th>    
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>TOL 1</td>
+                                        <td>MICeL Training Center</td>
+                                        <td>SO-43123</td>
+                                        <td>10</td>
+                                        <td>Approved</td>
+                                    </tr>
+                                     <tr>
+                                        <td>TOL 1</td>
+                                        <td>MICeL Training Center</td>
+                                        <td>SO-43123</td>
+                                        <td>10</td>
+                                        <td>Approved</td>
+                                    </tr>
+                                     <tr>
+                                        <td>TOL 1</td>
+                                        <td>MICeL Training Center</td>
+                                        <td>SO-43123</td>
+                                        <td>10</td>
+                                        <td>Approved</td>
+                                    </tr>
+                                     <tr>
+                                        <td>TOL 1</td>
+                                        <td>MICeL Training Center</td>
+                                        <td>SO-43123</td>
+                                        <td>10</td>
+                                        <td>Approved</td>
+                                    </tr>
+                                     <tr>
+                                        <td>TOL 1</td>
+                                        <td>MICeL Training Center</td>
+                                        <td>SO-43123</td>
+                                        <td>10</td>
+                                        <td>Approved</td>
+                                    </tr>
+                                     <tr>
+                                        <td>TOL 1</td>
+                                        <td>MICeL Training Center</td>
+                                        <td>SO-43123</td>
+                                        <td>10</td>
+                                        <td>Approved</td>
+                                    </tr>
+                                     <tr>
+                                        <td>TOL 1</td>
+                                        <td>MICeL Training Center</td>
+                                        <td>SO-43123</td>
+                                        <td>10</td>
+                                        <td>Approved</td>
+                                    </tr>
+                                     <tr>
+                                        <td>TOL 1</td>
+                                        <td>MICeL Training Center</td>
+                                        <td>SO-43123</td>
+                                        <td>10</td>
+                                        <td>Approved</td>
+                                    </tr>
+                                     <tr>
+                                        <td>TOL 1</td>
+                                        <td>MICeL Training Center</td>
+                                        <td>SO-43123</td>
+                                        <td>10</td>
+                                        <td>Approved</td>
+                                    </tr>
+                                     <tr>
+                                        <td>TOL 1</td>
+                                        <td>MICeL Training Center</td>
+                                        <td>SO-43123</td>
+                                        <td>10</td>
+                                        <td>Approved</td>
+                                    </tr>
+                                     <tr>
+                                        <td>TOL 1</td>
+                                        <td>MICeL Training Center</td>
+                                        <td>SO-43123</td>
+                                        <td>10</td>
+                                        <td>Approved</td>
+                                    </tr>
+                                   
+                                    <tr>
+                                        <td>TOL 1</td>
+                                        <td>MICeL Training Center</td>
+                                        <td>SO-43123</td>
+                                        <td>10</td>
+                                        <td>Approved</td>
+                                    </tr>
+                                   
+                                    <tr>
+                                        <td>TOL 1</td>
+                                        <td>MICeL Training Center</td>
+                                        <td>SO-43123</td>
+                                        <td>10</td>
+                                        <td>Approved</td>
+                                    </tr>
+                                   
+                                    <tr>
+                                        <td>TOL 1</td>
+                                        <td>MICeL Training Center</td>
+                                        <td>SO-43123</td>
+                                        <td>10</td>
+                                        <td>Approved</td>
+                                    </tr>
+                                   
+                                    <tr>
+                                        <td>TOL 1</td>
+                                        <td>MICeL Training Center</td>
+                                        <td>SO-43123</td>
+                                        <td>10</td>
+                                        <td>Approved</td>
+                                    </tr>
+                                   
+                                   
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                 <div class="col-lg-4">
+                        <div class="well well-lg">
+								<form method="post" action="index.php" >
+                            <h3>Add Training</h3>
+
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Title" required>
+                            </div>
+
+                            <div class="form-group">
+                                <textarea class="form-control" rows="3" placeholder="Description" required></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Venue" required>
+                            </div>
+                          
+                          <h4>Training Schedule <small>(Consecutive)</small></h4>
+                            <div class="row">
+                              <div class="col-lg-6">
+                                <div class="input-group">
+                                  <span class="input-group-addon">
+                                    <i class="fa fa-calendar"></i>
+                                  </span>
+                                  <input class="form-control" id="date" name="date" placeholder="From" type="text" required />
+                                </div><!-- /input-group -->
+                              </div><!-- /.col-lg-6 -->
+                              <div class="col-lg-6">
+                                <div class="input-group">
+                                  <span class="input-group-addon">
+                                    <i class="fa fa-calendar"></i>
+                                  </span>
+                                  <input class="form-control" id="date" name="date" placeholder="To" type="text" required/>
+                                </div><!-- /input-group -->
+                              </div><!-- /.col-lg-6 -->
+                            </div><!-- /.row -->
+
+                            <div class="form-group">
+                         <h4>Training Schedule <small>(Specific)</small></h4>
+                            <div class="row">
+                              <div class="col-lg-6">
+                                <div class="input-group">
+                                  <span class="input-group-addon">
+                                    <i class="fa fa-calendar"></i>
+                                  </span>
+                                  <input class="form-control" id="date" name="date" placeholder="MM/DD/YYYY" type="text" required />
+                                </div><!-- /input-group -->
+                              </div><!-- /.col-lg-6 -->
+                              </div>
+                              </div>
+
+                         <div class="form-group">
+                                <input type="text" class="form-control" placeholder="SO Reference Number" required >
+                            </div>
+
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success">Submit</button>
+                        </div>
+
+							</form>
+                    </div>
+
+
+
+
+
+
+
+                            <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+                            <!-- Include Date Range Picker -->
+                            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+
+                            <script>
+                                $(document).ready(function(){
+                                    var date_input=$('input[name="date"]'); //our date input has the name "date"
+                                    var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
+                                    date_input.datepicker({
+                                        format: 'mm/dd/yyyy',
+                                        container: container,
+                                        todayHighlight: true,
+                                        autoclose: true,
+                                    })
+                                })
+                            </script>
+
+
+                        </div>
+                    </div>
+                </div>
+                   
+             
+
+            </div>
+
+        </div>
+
+      
+
+
+        </div>
